@@ -1,5 +1,9 @@
 # BitCrack
 
+> **About this fork.** Upstream is [brichard19/BitCrack](https://github.com/brichard19/BitCrack). This fork builds `cuBitCrack.exe` with **CUDA 12.9** through GitHub Actions (`.github/workflows/build.yml`), so it runs on current cards including RTX 50xx (Blackwell). The official release targets CUDA 10.1 and does not - it asks for `cudart64_101.dll` and has no Blackwell support.
+>
+> Used by [Heuhaufen](https://github.com/SittingDuck52/Heuhaufen), a PowerShell dashboard that runs the puzzle search unattended on Windows.
+
 A tool for brute-forcing Bitcoin private keys. The main purpose of this project is to contribute to the effort of solving the [Bitcoin puzzle transaction](https://blockchain.info/tx/08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15): A transaction with 32 addresses that become increasingly difficult to crack.
 
 
